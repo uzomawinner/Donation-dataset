@@ -1,0 +1,70 @@
+SELECT *
+FROM Donation_Data;
+
+SELECT *
+FROM Donor_Data2;
+
+SELECT count(donation)
+FROM Donation_Data;
+
+SELECT sum(donation)
+FROM Donation_Data;
+
+SELECT max(donation)
+FROM Donation_Data;
+
+SELECT min(donation)
+FROM Donation_Data;
+
+SELECT Avg(donation)
+FROM Donation_Data;
+
+SELECT gender, COUNT (donation)
+FROM Donation_Data
+GROUP BY gender;
+
+SELECT gender, sum(donation)
+FROM Donation_Data
+GROUP BY gender;
+
+SELECT Donation_Data.first_name,last_name,email,job_field,donation,state,shirt_size,
+Donor_Data2.donation_frequency,university,car,second_language,favourite_colour,movie_genre
+FROM Donation_Data
+JOIN Donor_Data2
+ON Donation_Data.id=Donor_Data2.id;
+
+SELECT Donation_Data.donation, Donor_Data2.donation_frequency,sum(donation)
+FROM Donation_Data
+JOIN Donor_Data2
+ON Donation_Data.id=Donor_Data2.id
+WHERE donation_frequency = 'Once';
+
+SELECT Donation_Data.donation, Donor_Data2.donation_frequency,sum(donation)
+FROM Donation_Data
+JOIN Donor_Data2
+ON Donation_Data.id=Donor_Data2.id
+WHERE donation_frequency = 'Weekly';
+
+SELECT Donation_Data.donation, Donor_Data2.donation_frequency,sum(donation)
+FROM Donation_Data
+JOIN Donor_Data2
+ON Donation_Data.id=Donor_Data2.id
+WHERE donation_frequency = 'Monthly';
+
+SELECT Donation_Data.donation, Donor_Data2.donation_frequency,sum(donation)
+FROM Donation_Data
+JOIN Donor_Data2
+ON Donation_Data.id=Donor_Data2.id
+WHERE donation_frequency = 'Yearly';
+
+SELECT state, sum(donation)
+FROM Donation_Data
+GROUP BY state
+ORDER BY sum(donation)
+LIMIT 10;
+
+SELECT job_field, sum(donation)
+FROM Donation_Data
+GROUP BY job_field
+ORDER BY sum(donation)
+LIMIT 3;
