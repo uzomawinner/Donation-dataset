@@ -34,3 +34,50 @@ To understand the problem, I needed to analyze existing data bases of Donors and
 4. What is the frequency of donations and how do they vary?
 5. What job field, State has the most amount of donation and how do they vary?
 
+
+   FINDINGS AND RECOMMENDATIONS
+
+As a result of data set analysis, I have found out: - 
+The total number of donors we have in the database is 1000
+The sum of donations we collected is $249085 
+The largest amount of donations is $500 
+The smallest amount of donation is $5
+The average amount of donation made was $249.085
+
+
+
+Key Recommendation.
+
+First from our analysis we realized that the biggest amount of donation made was $500, and the smallest was $5. To improve this 
+To improve donations and address the disparity between male and female contributions: 
+For the female -
+Seeing that we have a greater number of female donors(508) as to that of the male(492)  but the bigger amount of donations coming from the men. This highlights the willingness of the female gender to make donations to our cause. 
+So we should create targeted outreach for female. This entails developing fundraising campaigns that resonate with women and children, highlighting causes relevant to them. 
+Collaborate with women's networks and programs. Partner with organizations that align with your cause to tap into their supporter base. 
+
+For the Male-
+ Encourage peer-to-peer fundraising: Leverage male donors to initiate fundraising efforts and expand the donor base.
+To strategically increase our donation based on donation frequency we should put the following recommendations into action for each category of donors 
+
+ Yearly Donors: Reach out to committed supporters before our annual donation cycle, personalize messages and mails to thank them for there donations , highlight previous impact and ongoing needs as a form of reminder to encourage more donations.
+One-Time Donors: Recognize their past donations, express gratitude, provide regular updates, and encourage them to consider doing more donation.
+Monthly Donors: Keep them updated with the progress of our cause, offer exclusive content, and highlight the impact of their donations to our cause . 
+ Weekly Donors: Reach out with a frequency similar to monthly donors, express appreciation, provide regular updates.
+
+To improve donations from states 
+
+We have the top amount of donations come from California with a sum of $30,264, followed by Texas with $24,097,  Florida with $20,562.
+And the least amount of donations came from Wyoming $232, Maine $258, South Dakota $401
+
+Organize local events, engage with businesses and local influencers in the states, and highlight impact of  donations within the state. 
+Tailor social media ads, messaging's and make full use of digital marketing and online space to share impactful stories of our cause and seek for more donations.
+  Build relationships with the state government and bodies , partner with local organizations, highlight local issues, and emphasize impact. 
+For the bottom five states, implement similar strategies tailored to each state's characteristics. Focus on local influencers, partnerships, and digital marketing. Highlight specific local impact of our previous donations and emphasize support for local causes. Continually evaluate and adjust this strategies to increase fundraising .
+
+To improve donation from job fields 
+
+From our findings Top 3 donations by job field came from Human Resource with total donation of $23060 followed by Research and development $22862 and product management $22798
+And the least 3 were Legal $17309 , Marketing $18255, and sales $19009
+So to improve donations from job field
+Programs and events that are job field related to a particular field should be put in place to encourage and explain the need for this donations to provide education for children/students who will eventually take over from this people in those specific job field.
+
