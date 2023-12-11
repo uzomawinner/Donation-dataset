@@ -80,4 +80,5 @@ From our findings Top 3 donations by job field came from Human Resource with tot
 And the least 3 were Legal $17309 , Marketing $18255, and sales $19009
 So to improve donations from job field
 Programs and events that are job field related to a particular field should be put in place to encourage and explain the need for this donations to provide education for children/students who will eventually take over from this people in those specific job field.
+Regular updates on the impact of previous donation to the individual job field should be communicated.
 
